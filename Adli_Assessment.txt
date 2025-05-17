@@ -1,0 +1,17 @@
+Question 1a
+
+Request: GET
+URL: https://www-api.pos.com.my/api/countries
+
+Question 1b
+
+Request: POST
+URL: https://www-api.pos.com.my/api/getStateByPostcode
+Payload: postcode:40150
+Response: Selangor
+
+Question 1c
+Request: POST
+URL: https://www-api.pos.com.my/api/price
+Payload: country:Malaysia , postcodeFrom:40150 , postcodeTo:68100 , weight:1
+Response: RM 8.10
